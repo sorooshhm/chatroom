@@ -1,0 +1,99 @@
+.ChatGroup:hover > .overLay {
+  opacity: 0.3;
+}
+/* .ChatGroup:hover .ChatGroup > div > .test > svg {
+  display: inline-block;
+} */
+.delIcon{
+  transition: all .3s;
+}
+.delIcon:hover {
+  fill: rgb(253, 56, 56);
+}
+.ChatGroup {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding-left: 5px !important;
+}
+.overLay {
+  background: rgb(177, 177, 177);
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  left: 0;
+  position: absolute;
+  transition: all 0.2s;
+}
+textarea:focus{
+  outline: none !important;
+  box-shadow: none !important;
+  
+}
+.chatInput {
+  /* position: absolute; */
+  width: 100%;
+  /* bottom: 0; */
+  
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+.sendImg {
+  min-height: 15px;
+  max-height: 20px;
+  min-width: 15px;
+  max-width: 20px;
+  cursor: pointer;
+}
+.sendBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 15px;
+  border-radius: 50%;
+  background-color: #8e2b8e;
+}
+.message {
+  padding: 10px;
+  background: purple;
+  border-radius: 10px 15px 10px 15px;
+  color: white;
+  width: max-content;
+  min-width: 200px;
+  max-width: 280px;
+  word-wrap: break-word;
+  flex-direction: column;
+}
+.newChatImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -24%;
+  left: 33%;
+}
+.createChatBtn {
+  border-color: purple;
+  color: purple;
+  background-color: white;
+}
+.createChatBtn:hover {
+  border-color: white;
+  color: white;
+  background-color: purple;
+}
+.attachIcon{
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  cursor: pointer;
+}
+::-webkit-input-placeholder{
+  padding:0  15px 8px 8px;
+}

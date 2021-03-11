@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+span {
+  overflow: initial;
+}
+a {
+  text-decoration: unset;
+  color: unset;
+}
+a:hover {
+  color: unset;
+  text-decoration: unset;
+}
+a:visited {
+  color: unset;
+  text-decoration: unset;
+}
+body {
+  background-color: #e5e5e5;
+}
+hr {
+  margin: 0;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
